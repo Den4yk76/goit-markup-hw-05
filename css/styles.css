@@ -157,6 +157,8 @@ header {
 .contacts:focus {
   color: var(--highlight-color);
   fill: var(--highlight-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts {
@@ -402,6 +404,8 @@ li {
 .social-link:focus {
   background-color: var(--highlight-color);
   fill: #fff;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-item:not(:last-child) {
@@ -441,6 +445,8 @@ li {
 .client a:focus {
   fill: var(--highlight-color);
   border-color: var(--highlight-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client:last-child {
@@ -524,6 +530,8 @@ footer li:last-child {
 .social .social-link:hover,
 .social .social-link:focus {
   background-color: var(--highlight-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
@@ -607,6 +615,8 @@ footer li:last-child {
   color: var(--back-light-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-set {
@@ -632,6 +642,8 @@ footer li:last-child {
 .card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .border {
