@@ -368,10 +368,10 @@ li {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  height: 70px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background: rgba(47, 48, 58, 0.8);
 }
 
@@ -682,7 +682,6 @@ footer li:last-child {
 }
 
 .projects-button {
-
   transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -734,7 +733,7 @@ footer li:last-child {
   width: 100%;
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -754,11 +753,14 @@ footer li:last-child {
   color: var(--back-light-color);
 }
 
-.card:hover .card-caption {
+.card:hover .card-caption,
+.card:focus .card-caption {
   transform: translateY(-100%);
 }
 
 .projects-set-item:hover,
+.projects-set-item:focus,
+.card:hover,
 .card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
